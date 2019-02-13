@@ -96,6 +96,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddSkillFeaturetoProfile.feature</DependentUpon>
     </Compile>
+    <Compile Include="AcceptanceTest\DeleteSkillFeaturetoProfile.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeleteSkillFeaturetoProfile.feature</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptanceTest\DeleteSkillFeaturetoProfileSteps.cs" />
+    <Compile Include="AcceptanceTest\UpdateSkillFeaturetoProfile.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateSkillFeaturetoProfile.feature</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptanceTest\UpdateSkillFeaturetoProfileSteps.cs" />
+    <Compile Include="DeleteSkillFeaturetoProfileSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AcceptanceTest\SpecFlowFeature1.feature.cs">
       <AutoGen>True</AutoGen>
@@ -108,6 +121,14 @@
     <None Include="AcceptanceTest\AddSkillFeaturetoProfile.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddSkillFeaturetoProfile.feature.cs</LastGenOutput>
+    </None>
+    <None Include="AcceptanceTest\DeleteSkillFeaturetoProfile.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DeleteSkillFeaturetoProfile.feature.cs</LastGenOutput>
+    </None>
+    <None Include="AcceptanceTest\UpdateSkillFeaturetoProfile.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>UpdateSkillFeaturetoProfile.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />

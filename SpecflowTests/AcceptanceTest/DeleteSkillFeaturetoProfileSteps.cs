@@ -9,9 +9,9 @@ using static SpecflowPages.CommonMethods;
 namespace SpecflowTests.AcceptanceTest
 {
     [Binding]
-    public class AddSkillFeaturetoProfileSteps
+    public class DeleteSkillFeaturetoProfileSteps
     {
-        [Given(@"I have Clicked on the skill Tab under Profile Page")]
+        [Given(@"I have Clicked on the Skill Tab under Profile page")]
         public void GivenIHaveClickedOnTheSkillTabUnderProfilePage()
         {
             //Wait
@@ -19,11 +19,10 @@ namespace SpecflowTests.AcceptanceTest
 
             // Click on Profile tab
             Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[1]/div/a[2]")).Click();
-
         }
 
-        [When(@"I add a new Skill")]
-        public void WhenIAddANewSkill()
+        [When(@"I can Delete Skill under Profile page")]
+        public void WhenICanDeleteSkillUnderProfilePage()
         {
             //Wait
             Thread.Sleep(1500);
@@ -34,28 +33,13 @@ namespace SpecflowTests.AcceptanceTest
             //Wait
             Thread.Sleep(1500);
 
-            //Click on Add New button
-            Driver.driver.FindElement(By.XPath("//div[@class='ui teal button']")).Click();
-
-            //Add Skill
-            Driver.driver.FindElement(By.XPath("//div[@class='five wide field']/input[1]")).SendKeys("English");
-
-            //Click on Skill Level
-            Driver.driver.FindElement(By.XPath("//select[@class='ui fluid dropdown']")).Click();
-
-            //Choose the Skill level
-            IWebElement skill = Driver.driver.FindElements(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[3]/div/div[2]/div/div/div[2]/select/option"))[2];
-
-            skill.Click();
-
-            //Click on Add button
-            Driver.driver.FindElement(By.XPath("//input[@class='ui teal button ']")).Click();
+            //Click on Delete Icon
+            Driver.driver.FindElement(By.XPath("/ html / body / div[1] / div / section[2] / div / div / div / div[3] / form / div[3] / div / div[2] / div / table / tbody[1] / tr / td[3] / span[2]")).Click();
 
         }
 
-
-        [Then(@"that skill should be displayed on my Profile Listings")]
-        public void ThenThatSkillShouldBeDisplayedOnMyProfileListings()
+        [Then(@"that deleted skill should be removed from my profile Listing")]
+        public void ThenThatDeletedSkillShouldBeRemovedFromMyProfileListing()
         {
             try
             {

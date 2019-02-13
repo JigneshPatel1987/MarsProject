@@ -57,7 +57,6 @@ C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTe
 C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.Support.dll
 C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.xml
 C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.Support.xml
-C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csprojAssemblyReference.cache
 C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csproj.CoreCompileInputs.cache
 C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csproj.CopyComplete
 C:\Users\Admin CL7_06\Downloads\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.dll
